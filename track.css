@@ -1,0 +1,90 @@
+#navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color:#800000;
+  }
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  #navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image:url('3.png');
+  background-position: fixed;
+  }
+  
+  header {
+  background-color: whitesmoke;
+  padding: 20px 0;
+  text-align:;
+  }
+  .banner {
+  background-color: white;  
+  background-size: cover; 
+  background-position: center;  
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  color: #dab2b2;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 8px; 
+  text-align: center;
+  padding: 50px 0; 
+    animation: fadeIn 2s ease-out;
+    text-shadow: 0 0 15px rgba(255, 99, 71, 1), 0 0 30px rgba(255, 99, 71, 0.5); 
+  }
+  footer {
+    text-align: left;
+    background-color:#800000;
+    color: white;
+    padding: 50px 0;
+    opacity: 10;
+    }
+  h2 {
+    color: #fffffe;
+    }
+    .about, .academics, .techvoc,.contact {
+    padding: 30px;
+    margin: 20px;
+    background-color: #9B7B78;
+    border-radius: 8px;
+    box-shadow: 0px 10px 600px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 8px; 
+    animation: fadeIn 2s ease-out;
+    }
+    .track {
+    margin-bottom: 20px;
+    }
+    @keyframes fadeIn {
+      0% {
+          opacity: 0;
+          transform: translateY(30px);
+      }
+      100% {
+          opacity: 1;
+          transform: translateY(0);
+      }
+  }
+  @keyframes slideIn {
+      0% {
+          opacity: 0;
+          transform: translateX(-30px);
+      }
+      100% {
+          opacity: 1;
+          transform: translateX(0);
+      }
+  }
+  
